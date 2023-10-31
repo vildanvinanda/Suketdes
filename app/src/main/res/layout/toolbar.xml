@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@drawable/frame12">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        >
+
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/out"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:onClick="exit"
+            />
+
+        <Button
+            android:id="@+id/notbook"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignEnd="@+id/exit"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/notebook"
+            android:onClick="btntoTutorial"/>
+        <ImageView
+            android:id="@+id/ligi_toolbar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/logo2"
+            />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@+id/ligi_toolbar"
+            android:background="@drawable/dspasireungit" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

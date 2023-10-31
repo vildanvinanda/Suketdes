@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame2"
+    tools:context=".HomeActivity">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:elevation="20dp"/>
+
+    <include
+        android:id="@id/iklan"
+        layout="@layout/iklan"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="20dp"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+        />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_below="@+id/iklan"
+        android:layout_marginTop="20dp"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/iklan"
+        />
+
+    <ImageView
+        android:id="@+id/layer1"
+        android:layout_width="402dp"
+        android:layout_height="159dp"
+        android:layout_below="@+id/search"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/rectangle3" />
+
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Surat Keterangan"
+        android:layout_below="@+id/search"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_surat_penghasilan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/judul2"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background="@drawable/butto_create"
+        android:text="Surat Keterangan Penghasilan"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:elevation="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:onClick="suratketerangan"
+        />
+
+</RelativeLayout>

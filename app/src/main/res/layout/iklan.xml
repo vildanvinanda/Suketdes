@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@drawable/logo">
+
+    <Button
+        android:id="@+id/igvil"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="110dp"
+        android:layout_width="60dp"
+        android:layout_height="10dp"
+        android:background="@drawable/igvil"
+        android:onClick="igvildn"/>
+
+    <Button
+        android:id="@+id/igzen"
+        android:layout_width="70dp"
+        android:layout_height="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/igzen"
+        android:onClick="igmoh" />
+
+</RelativeLayout>

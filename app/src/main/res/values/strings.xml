@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">SUKETDES</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string-array name="dusun_array">
+        <item></item>
+        <item>DUSUN PASIREUNGIT TONGGOH</item>
+        <item>DUSUN PASIREUNGIT LANDEUH</item>
+    </string-array>
+
+    <string-array name="rt_array">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string-array name="rw_array">
+        <item></item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="jk_array">
+        <item></item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+    <string-array name="agama_array">
+        <item></item>
+        <item>Islam</item>
+        <item>Kristen Katolik</item>
+        <item>Kristen Protestan</item>
+        <item>Budha</item>
+    </string-array>
+
+    <string-array name="stpk_array">
+        <item></item>
+        <item>Sudah Kawin</item>
+        <item>Belum Kawin</item>
+    </string-array>
+    <string-array name="menu_array">
+        <item>keluar</item>
+    </string-array>
+</resources>
